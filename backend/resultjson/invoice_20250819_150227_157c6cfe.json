@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-19T15:02:27.607964",
+    "processing_date": "2025-08-19 15:02:27",
+    "unique_id": "157c6cfe",
+    "filename": "batch1-0939.jpg",
+    "file_id": "20250819_150227_157c6cfe"
+  },
+  "extraction_data": {
+    "quality_assessment": {
+      "quality_too_poor": false,
+      "quality_issues": [],
+      "readability_score": "high",
+      "can_extract_data": true,
+      "preprocessing_recommended": false
+    },
+    "invoice_header": {
+      "vendor_name": "Hernandez Ltd",
+      "vendor_address": "668 Marie Isle, New Kimberg, AR 92381",
+      "vendor_phone": "992-82-2992",
+      "vendor_email": "N/A",
+      "vendor_website": "N/A",
+      "vendor_gst_number": "N/A",
+      "vendor_pan": "N/A",
+      "invoice_number": "10823698",
+      "invoice_date": "09/26/2020",
+      "due_date": "N/A",
+      "purchase_order_number": "N/A",
+      "reference_number": "N/A",
+      "currency": "US Dollars ($)"
+    },
+    "customer_details": {
+      "customer_name": "Huerta-Cortez",
+      "customer_address": "22697 Hamilton Ranch, New Samanthaton, AR 01797",
+      "customer_phone": "934-82-8445",
+      "customer_email": "N/A",
+      "customer_gst_number": "N/A",
+      "customer_pan": "N/A",
+      "billing_address": "N/A",
+      "shipping_address": "N/A",
+      "customer_contact_person": "N/A"
+    },
+    "line_items": [
+      {
+        "item_number": "1",
+        "description": "YILONG 5'x7.5' Handknotted Silk Carpet Whirlwind Home Decor Classic Rug 0807",
+        "hsn_sac_code": "N/A",
+        "quantity": "3,00",
+        "unit": "each",
+        "unit_price": "$2 800,00",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "$9 240,00"
+      },
+      {
+        "item_number": "2",
+        "description": "Yilong 8x10ft Hand knotted Wool Carpets Home Decor Modern Villa Area Rug P39",
+        "hsn_sac_code": "N/A",
+        "quantity": "2,00",
+        "unit": "each",
+        "unit_price": "$5 040,00",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "$11 088,00"
+      },
+      {
+        "item_number": "3",
+        "description": "Yilong 5'x7' Handknotted Silk Carpet Home Interior Classic Luxury Area Rug 1047",
+        "hsn_sac_code": "N/A",
+        "quantity": "4,00",
+        "unit": "each",
+        "unit_price": "$8 400,00",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "$36 960,00"
+      },
+      {
+        "item_number": "4",
+        "description": "Leopard Printed Rug Skin Mat Leather Faux Fur Animals Area Rugs Home Carpets",
+        "hsn_sac_code": "N/A",
+        "quantity": "4,00",
+        "unit": "each",
+        "unit_price": "$19,49",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "$85,76"
+      },
+      {
+        "item_number": "5",
+        "description": "Black+White Rectangle Shape Area Rug Carpet Floor Pad Doormat Mats Non-slip Z4F9",
+        "hsn_sac_code": "N/A",
+        "quantity": "3,00",
+        "unit": "each",
+        "unit_price": "$21,10",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "$69,63"
+      },
+      {
+        "item_number": "6",
+        "description": "Philadelphia Eagles Anti-Skid Area Rug Soft Floor Mat Carpet Living Room Bedroom",
+        "hsn_sac_code": "N/A",
+        "quantity": "2,00",
+        "unit": "each",
+        "unit_price": "$18,04",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "$39,69"
+      }
+    ],
+    "financial_summary": {
+      "subtotal": "$52 257,34",
+      "total_discount": "N/A",
+      "taxable_amount": "N/A",
+      "cgst": "N/A",
+      "sgst": "N/A",
+      "igst": "N/A",
+      "cess": "N/A",
+      "other_charges": "N/A",
+      "shipping_charges": "N/A",
+      "total_tax_amount": "$5 225,73",
+      "round_off": "N/A",
+      "total_amount": "$57 483,07",
+      "amount_in_words": "N/A",
+      "currency": "US Dollars ($)"
+    },
+    "payment_details": {
+      "payment_terms": "N/A",
+      "payment_method": "N/A",
+      "bank_name": "N/A",
+      "account_number": "N/A",
+      "ifsc_code": "N/A",
+      "branch": "N/A",
+      "upi_id": "N/A",
+      "advance_paid": "N/A",
+      "balance_due": "N/A"
+    },
+    "terms_and_conditions": {
+      "payment_terms": "N/A",
+      "delivery_terms": "N/A",
+      "warranty_terms": "N/A",
+      "return_policy": "N/A",
+      "late_payment_charges": "N/A",
+      "jurisdiction": "N/A",
+      "other_conditions": []
+    },
+    "additional_info": {
+      "notes": "N/A",
+      "special_instructions": "N/A",
+      "delivery_date": "N/A",
+      "place_of_supply": "N/A",
+      "reverse_charge": "N/A",
+      "document_type": "N/A",
+      "series": "N/A",
+      "authorised_signatory": "N/A",
+      "stamp_or_seal": "N/A",
+      "qr_code_present": "N/A"
+    },
+    "detection_metadata": {
+      "tables_detected": true,
+      "handwriting_detected": false,
+      "logo_detected": false,
+      "stamp_detected": false,
+      "signature_detected": false,
+      "barcode_qr_detected": false,
+      "multi_page_document": false,
+      "document_quality": "high",
+      "extraction_confidence": "high",
+      "unclear_fields": []
+    }
+  }
+}

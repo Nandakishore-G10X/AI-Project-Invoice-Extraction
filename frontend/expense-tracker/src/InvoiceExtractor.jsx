@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
     Upload,
     FolderOpen,
@@ -6,7 +6,9 @@ import {
 } from "lucide-react";
 import StatusCard from "./StatusCard";
 import FileUpload from "./components/FileUpload";
-import "./styles/InvoiceExtractor.css";  // Importing the external CSS file
+import "./styles/InvoiceExtractor.css";
+import ReactJson from "react-json-view";
+// Importing the external CSS file
 
 const InvoiceExtractor = () => {
     const [activeTab, setActiveTab] = useState("current");
@@ -19,18 +21,24 @@ const InvoiceExtractor = () => {
         setUploadedFile(file);
     };
 
-    const combinedData = result?.extraction_data?.combined_data || null;
+    const isPDF = uploadedFile?.type === "application/pdf";
+
+    const combinedData = isPDF
+        ? (result?.extraction_data?.combined_data || null)
+        : (result?.extraction_data || null);
+
+    const page_by_page_results = result?.extraction_data?.page_by_page_results || null;
 
     // Utility renderer (similar to your Streamlit loop)
     const renderSection = (sectionKey) => {
-        if (!combinedData || !combinedData[sectionKey]) return <p>No data available</p>;
+        if (!combinedData || !combinedData[sectionKey])
+            return <p>No data available</p>;
 
         const sectionData = combinedData[sectionKey];
-
         if (Array.isArray(sectionData)) {
             // Handle list type sections (like line items or terms)
             return (
-                <div style={{textAlign : "left"}} className="description-cell">
+                <div style={{ textAlign: "left" }} className="description-cell">
                     {sectionData.map((item, i) => (
                         <div key={i} className="item-block">
                             {Object.entries(item).map(([key, value]) =>
@@ -46,7 +54,7 @@ const InvoiceExtractor = () => {
         } else if (typeof sectionData === "object") {
             // Normal key-value pairs
             return (
-                <div style={{textAlign : "left"}} className="description-cell">
+                <div style={{ textAlign: "left" }} className="description-cell">
                     {Object.entries(sectionData).map(([key, value]) =>
                         value && value !== "N/A" ? (
                             <p key={key}><strong>{key.replace(/_/g, " ")}:</strong> {value}</p>
@@ -58,6 +66,11 @@ const InvoiceExtractor = () => {
             return <p>{sectionData}</p>;
         }
     };
+
+    useEffect(() => {
+        console.log("here", combinedData);
+    }, [combinedData]);
+
 
     return (
         <div className="invoice-extractor">
@@ -108,6 +121,7 @@ const InvoiceExtractor = () => {
 
                     {result && combinedData && (
                         <div>
+
                             {/* Section Tabs (Scrollable) */}
                             <div className="section-tabs">
                                 {[
@@ -133,8 +147,24 @@ const InvoiceExtractor = () => {
                             <div className="section-content">
                                 {renderSection(section)}
                             </div>
+
+                            {page_by_page_results && (
+                                <div className="json-container">
+                                    <ReactJson
+                                        src={page_by_page_results || []}
+                                        theme="rjv-default"
+                                        name={false}
+                                        collapsed={false}
+                                        enableClipboard={false}
+                                        displayDataTypes={false}
+                                        displayObjectSize={false}
+                                    />
+                                </div>
+                            )}
+
                         </div>
                     )}
+
                 </div>
             </div>
         </div>

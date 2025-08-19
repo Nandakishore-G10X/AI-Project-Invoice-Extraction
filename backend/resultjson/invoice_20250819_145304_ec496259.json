@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "timestamp": "2025-08-18T11:21:00.819799",
-    "processing_date": "2025-08-18 11:21:00",
-    "unique_id": "9c329985",
-    "filename": "batch1-0474.jpg",
-    "file_id": "20250818_112100_9c329985"
+    "timestamp": "2025-08-19T14:53:04.731165",
+    "processing_date": "2025-08-19 14:53:04",
+    "unique_id": "ec496259",
+    "filename": "batch1-0938.jpg",
+    "file_id": "20250819_145304_ec496259"
   },
   "extraction_data": {
     "quality_assessment": {
@@ -15,23 +15,23 @@
       "preprocessing_recommended": false
     },
     "invoice_header": {
-      "vendor_name": "Thomas, White and Smith",
-      "vendor_address": "8485 Jack Key Apt. 255, New Miguel, HI 95698",
+      "vendor_name": "Cooper PLC",
+      "vendor_address": "304 Tonya Rapids, West Jimborough, AZ 56472",
       "vendor_phone": "N/A",
       "vendor_email": "N/A",
       "vendor_website": "N/A",
       "vendor_gst_number": "N/A",
       "vendor_pan": "N/A",
-      "invoice_number": "30208398",
-      "invoice_date": "05/24/2019",
+      "invoice_number": "46569899",
+      "invoice_date": "10/14/2018",
       "due_date": "N/A",
       "purchase_order_number": "N/A",
       "reference_number": "N/A",
       "currency": "US Dollars ($)"
     },
     "customer_details": {
-      "customer_name": "Green, Scott and Miller",
-      "customer_address": "101 Ford Stravenue, Scotttown, DE 22621",
+      "customer_name": "Harris, Robles and Martinez",
+      "customer_address": "Unit 6981 Box 7345, DPO AE 05484",
       "customer_phone": "N/A",
       "customer_email": "N/A",
       "customer_gst_number": "N/A",
@@ -43,31 +43,91 @@
     "line_items": [
       {
         "item_number": "1",
-        "description": "3D Stones Florals Corridor Carpet Doorway Mat Soft Antislip Living Room Area Rug",
+        "description": "NWT Boohoo Sabra Emerald Green Floral Ruffle Dress Sz 12",
         "hsn_sac_code": "N/A",
-        "quantity": "2,00",
+        "quantity": "3,00",
         "unit": "each",
-        "unit_price": "15,19",
+        "unit_price": "4,99",
         "discount": "N/A",
         "tax_rate": "10%",
-        "tax_amount": "N/A",
-        "total_price": "33,42"
+        "tax_amount": "1,50",
+        "total_price": "16,47"
       },
       {
         "item_number": "2",
-        "description": "Round Rug Carpet For Living Room Decor Faux Fur Rugs Kids Room Long Plush Rugs",
+        "description": "LuLaRoe Nicole Dress Size Medium 12",
         "hsn_sac_code": "N/A",
-        "quantity": "1,00",
+        "quantity": "4,00",
         "unit": "each",
-        "unit_price": "9,87",
+        "unit_price": "1,99",
         "discount": "N/A",
         "tax_rate": "10%",
-        "tax_amount": "N/A",
-        "total_price": "10,86"
+        "tax_amount": "0,80",
+        "total_price": "8,76"
+      },
+      {
+        "item_number": "3",
+        "description": "NWT J.Crew Silk Wedding Dress",
+        "hsn_sac_code": "N/A",
+        "quantity": "4,00",
+        "unit": "each",
+        "unit_price": "395,00",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "158,00",
+        "total_price": "1 738,00"
+      },
+      {
+        "item_number": "4",
+        "description": "Women's black cocktail dress, size 4",
+        "hsn_sac_code": "N/A",
+        "quantity": "5,00",
+        "unit": "each",
+        "unit_price": "19,99",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "9,99",
+        "total_price": "109,94"
+      },
+      {
+        "item_number": "5",
+        "description": "LuLaRoe Nicole Dress Size Large 25",
+        "hsn_sac_code": "N/A",
+        "quantity": "4,00",
+        "unit": "each",
+        "unit_price": "1,99",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "0,80",
+        "total_price": "8,76"
+      },
+      {
+        "item_number": "6",
+        "description": "Vintage AGB Black Velvet Maxi Dress L Mandarin Collar",
+        "hsn_sac_code": "N/A",
+        "quantity": "5,00",
+        "unit": "each",
+        "unit_price": "69,96",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "34,98",
+        "total_price": "384,78"
+      },
+      {
+        "item_number": "7",
+        "description": "Boden black blue floral short sleeve dress size 6",
+        "hsn_sac_code": "N/A",
+        "quantity": "2,00",
+        "unit": "each",
+        "unit_price": "36,99",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "7,39",
+        "total_price": "81,38"
       }
     ],
     "financial_summary": {
-      "subtotal": "$40,25",
+      "subtotal": "$2 134,62",
       "total_discount": "N/A",
       "taxable_amount": "N/A",
       "cgst": "N/A",
@@ -76,9 +136,9 @@
       "cess": "N/A",
       "other_charges": "N/A",
       "shipping_charges": "N/A",
-      "total_tax_amount": "$4,03",
+      "total_tax_amount": "$213,46",
       "round_off": "N/A",
-      "total_amount": "$44,28",
+      "total_amount": "$2 348,08",
       "amount_in_words": "N/A",
       "currency": "US Dollars ($)"
     },

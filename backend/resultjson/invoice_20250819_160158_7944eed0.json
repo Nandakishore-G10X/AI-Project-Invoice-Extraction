@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-19T16:01:58.277930",
+    "processing_date": "2025-08-19 16:01:58",
+    "unique_id": "7944eed0",
+    "filename": "batch1-0419.jpg",
+    "file_id": "20250819_160158_7944eed0"
+  },
+  "extraction_data": {
+    "quality_assessment": {
+      "quality_too_poor": false,
+      "quality_issues": [],
+      "readability_score": "high",
+      "can_extract_data": true,
+      "preprocessing_recommended": false
+    },
+    "invoice_header": {
+      "vendor_name": "Holloway, Ford and Smith",
+      "vendor_address": "048 Brown Creek Apt. 631\nNew Jonathan, DC 38097",
+      "vendor_phone": "N/A",
+      "vendor_email": "N/A",
+      "vendor_website": "N/A",
+      "vendor_gst_number": "N/A",
+      "vendor_pan": "N/A",
+      "invoice_number": "93300746",
+      "invoice_date": "02/11/2013",
+      "due_date": "N/A",
+      "purchase_order_number": "N/A",
+      "reference_number": "N/A",
+      "currency": "US Dollars ($)"
+    },
+    "customer_details": {
+      "customer_name": "Pena, Hernandez and Miller",
+      "customer_address": "566 Daniels Causeway\nLeonardfurt, MI 40983",
+      "customer_phone": "N/A",
+      "customer_email": "N/A",
+      "customer_gst_number": "N/A",
+      "customer_pan": "N/A",
+      "billing_address": "N/A",
+      "shipping_address": "N/A",
+      "customer_contact_person": "N/A"
+    },
+    "line_items": [
+      {
+        "item_number": "1",
+        "description": "Hippie 3D Starry Sky Carpet Child Play Area Rug Kids Room Carpets Mat Home Decor",
+        "hsn_sac_code": "N/A",
+        "quantity": "5,00",
+        "unit": "each",
+        "unit_price": "11,69",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "64,29"
+      },
+      {
+        "item_number": "2",
+        "description": "3X5 Ft Cotton Chindi Rug Dining Room Carpet Floor Mat Handwoven Area Rug Throw",
+        "hsn_sac_code": "N/A",
+        "quantity": "1,00",
+        "unit": "each",
+        "unit_price": "17,85",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "19,64"
+      },
+      {
+        "item_number": "3",
+        "description": "Garden Flower Carpet Quilted Bedroom Floor Princess Tapis Lace Rug Carpets",
+        "hsn_sac_code": "N/A",
+        "quantity": "2,00",
+        "unit": "each",
+        "unit_price": "45,50",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "100,10"
+      },
+      {
+        "item_number": "4",
+        "description": "Imitation Wool Carpet Rugs Koala Panda Plush Living Room Blankets Non Slip Decor",
+        "hsn_sac_code": "N/A",
+        "quantity": "1,00",
+        "unit": "each",
+        "unit_price": "26,11",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "28,72"
+      },
+      {
+        "item_number": "5",
+        "description": "Round Rug Carpet For Living Room Decor Faux Fur Rugs Kids Room Long Plush Rugs",
+        "hsn_sac_code": "N/A",
+        "quantity": "2,00",
+        "unit": "each",
+        "unit_price": "9,87",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "21,71"
+      },
+      {
+        "item_number": "6",
+        "description": "Plush Carpet for Living Room Fluffy Rug Thick Bed Room Carpets Anti-slip Floor G",
+        "hsn_sac_code": "N/A",
+        "quantity": "1,00",
+        "unit": "each",
+        "unit_price": "20,36",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "22,40"
+      },
+      {
+        "item_number": "7",
+        "description": "Rectangle Area Rug Wood Grain Carpet Mat for Living Room Bedroom - 180x60cm",
+        "hsn_sac_code": "N/A",
+        "quantity": "3,00",
+        "unit": "each",
+        "unit_price": "32,81",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "108,27"
+      }
+    ],
+    "financial_summary": {
+      "subtotal": "$ 331,94",
+      "total_discount": "N/A",
+      "taxable_amount": "N/A",
+      "cgst": "N/A",
+      "sgst": "N/A",
+      "igst": "N/A",
+      "cess": "N/A",
+      "other_charges": "N/A",
+      "shipping_charges": "N/A",
+      "total_tax_amount": "$ 33,19",
+      "round_off": "N/A",
+      "total_amount": "$ 365,13",
+      "amount_in_words": "N/A",
+      "currency": "US Dollars ($)"
+    },
+    "payment_details": {
+      "payment_terms": "N/A",
+      "payment_method": "N/A",
+      "bank_name": "N/A",
+      "account_number": "N/A",
+      "ifsc_code": "N/A",
+      "branch": "N/A",
+      "upi_id": "N/A",
+      "advance_paid": "N/A",
+      "balance_due": "N/A"
+    },
+    "terms_and_conditions": {
+      "payment_terms": "N/A",
+      "delivery_terms": "N/A",
+      "warranty_terms": "N/A",
+      "return_policy": "N/A",
+      "late_payment_charges": "N/A",
+      "jurisdiction": "N/A",
+      "other_conditions": []
+    },
+    "additional_info": {
+      "notes": "N/A",
+      "special_instructions": "N/A",
+      "delivery_date": "N/A",
+      "place_of_supply": "N/A",
+      "reverse_charge": "N/A",
+      "document_type": "N/A",
+      "series": "N/A",
+      "authorised_signatory": "N/A",
+      "stamp_or_seal": "N/A",
+      "qr_code_present": "N/A"
+    },
+    "detection_metadata": {
+      "tables_detected": true,
+      "handwriting_detected": false,
+      "logo_detected": false,
+      "stamp_detected": false,
+      "signature_detected": false,
+      "barcode_qr_detected": false,
+      "multi_page_document": false,
+      "document_quality": "high",
+      "extraction_confidence": "high",
+      "unclear_fields": []
+    }
+  }
+}

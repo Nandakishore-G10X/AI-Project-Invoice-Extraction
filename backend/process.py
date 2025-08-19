@@ -26,14 +26,15 @@ async def process_pdf(uploaded_file, websocket, filename):
                     
                     # Process multi-page PDF  
         result = await process_multi_page_pdf(tmp_path, filename, websocket)
-        result_json = json.dumps(result)
+        
+        
 
-        # Send the JSON string over the WebSocket
-        await websocket.send_text(result_json)
+        # await websocket.send_text(result_json)
         # Clean up temp PDF file
         os.unlink(tmp_path)
         
         if result:
+            
         #     # Store result in session state
         #     st.session_state.processed_result = result
             
@@ -55,7 +56,7 @@ async def process_pdf(uploaded_file, websocket, filename):
                 master_file, total_count = append_to_master_results(
                     result, filename, results_dir
                 )
-                    
+                await websocket.send_json({"result" : {"text" : enhanced_result} })
                 await websocket.send_text(f"💾 **Results automatically saved:**")
                 await websocket.send_text(f"📁 **Individual file:** `{os.path.basename(individual_file)}`")
                 await websocket.send_text(f"📋 **Master file:** `all_results.json` (Total: {total_count} documents)")
@@ -131,7 +132,7 @@ async def process_image(uploaded_file, websocket, filename):
                         )
                         
                         # Success messages
-                        await websocket.send_text("✅ Invoice processed successfully!")
+                        await websocket.send_json({"result" : {"text" : enhanced_result} })
                         await websocket.send_text(f"💾 **Results automatically saved:**")
                         await websocket.send_text(f"📁 **Individual file:** `{os.path.basename(individual_file)}`")
                         await websocket.send_text(f"📋 **Master file:** `all_results.json` (Total: {total_count} documents)")

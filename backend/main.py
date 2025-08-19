@@ -45,21 +45,23 @@ async def websocket_endpoint(websocket: WebSocket):
         # Send the file format
         file_extension = file_name.split('.')[-1].lower()
         await websocket.send_text(json.dumps({"message" : f"File format: {file_extension.upper()}", "type" : "success", "finished" : True} ))
-
+        print(file_data)
         # Send the file size
         # file_size = os.path.getsize(file_path)
         # await websocket.send_text(f"File size: {file_size} bytes")
 
         if file_extension == "pdf":
             await websocket.send_text("📄 **PDF file detected**")
-            await websocket.send_json({"result" : {"text" : file_data} })
-            # processing_result = await process_pdf(uploaded_file, websocket, file_name)
+            # await websocket.send_json({"result" : {"text" : file_data} })
+            processing_result = await process_pdf(uploaded_file, websocket, file_name)
             
         else:
             #  await process_image(uploaded_file, websocket, file_name)
             await websocket.send_text("📄 **Image detected**")
-            await websocket.send_json({"result" : {"text" : file_data} })
-        # Simulate processing completion
+            await process_image(uploaded_file, websocket, file_name)     
+            # await websocket.send_json({"result" : {"text" : file_data} })
+
+              # Simulate processing completion
         await websocket.send_text(json.dumps({"message" : "File uploaded and processed successfully!", "type" : "success"}))
     except WebSocketDisconnect:
         print("Client disconnected")

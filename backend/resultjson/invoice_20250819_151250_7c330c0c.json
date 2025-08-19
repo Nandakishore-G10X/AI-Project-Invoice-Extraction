@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "timestamp": "2025-08-18T11:08:08.328152",
-    "processing_date": "2025-08-18 11:08:08",
-    "unique_id": "3f354baa",
-    "filename": "batch1-0479.jpg",
-    "file_id": "20250818_110808_3f354baa"
+    "timestamp": "2025-08-19T15:12:50.917667",
+    "processing_date": "2025-08-19 15:12:50",
+    "unique_id": "7c330c0c",
+    "filename": "batch1-0937.jpg",
+    "file_id": "20250819_151250_7c330c0c"
   },
   "extraction_data": {
     "quality_assessment": {
@@ -15,23 +15,23 @@
       "preprocessing_recommended": false
     },
     "invoice_header": {
-      "vendor_name": "Murray-Eaton",
-      "vendor_address": "773 Joseph Plains, West Nicoleville, AZ 46136",
-      "vendor_phone": "N/A",
+      "vendor_name": "Smith Ltd",
+      "vendor_address": "783 Harmon Mews, New Andrew, MN 96499",
+      "vendor_phone": "Tel: 953-76-7010",
       "vendor_email": "N/A",
       "vendor_website": "N/A",
       "vendor_gst_number": "N/A",
       "vendor_pan": "N/A",
-      "invoice_number": "69721323",
-      "invoice_date": "05/07/2019",
+      "invoice_number": "37999492",
+      "invoice_date": "10/22/2017",
       "due_date": "N/A",
       "purchase_order_number": "N/A",
       "reference_number": "N/A",
       "currency": "US Dollars ($)"
     },
     "customer_details": {
-      "customer_name": "Cuevas, Reid and Hurst",
-      "customer_address": "98071 Daniel Heights, Careyside, MS 59400",
+      "customer_name": "Jones, Miller and Yoder",
+      "customer_address": "97586 Alvarado Common Apt. 920, West Tracichester, MD 67308",
       "customer_phone": "N/A",
       "customer_email": "N/A",
       "customer_gst_number": "N/A",
@@ -43,67 +43,79 @@
     "line_items": [
       {
         "item_number": "1",
-        "description": "Tie Dyeing Fluffy Rugs Anti-Skid Area Rug Dining Room Carpet Floor Bedroom Mat",
+        "description": "HP Computer 8300 Elite USDT PC i3-3220 3.3GHz 4GB Wins 7Home COA",
         "hsn_sac_code": "N/A",
         "quantity": "4,00",
         "unit": "each",
-        "unit_price": "25,48",
+        "unit_price": "55,00",
         "discount": "N/A",
         "tax_rate": "10%",
         "tax_amount": "N/A",
-        "total_price": "112,11"
+        "total_price": "242,00"
       },
       {
         "item_number": "2",
-        "description": "Galaxy Butterfly Area Rugs Children Bedroom Non-Slip Doormat Floor Mat Carpet",
+        "description": "Dell Optiplex Desktop Computer PC Quad Core i5 16GB 1TB HD Wifi Windows 10 Pro",
         "hsn_sac_code": "N/A",
-        "quantity": "2,00",
+        "quantity": "3,00",
         "unit": "each",
-        "unit_price": "13,69",
+        "unit_price": "169,95",
         "discount": "N/A",
         "tax_rate": "10%",
         "tax_amount": "N/A",
-        "total_price": "30,12"
+        "total_price": "560,83"
       },
       {
         "item_number": "3",
-        "description": "Colorful Marble Printed Living Room and Bedroom Area Rugs Carpet CNK2413",
+        "description": "HP All-in-One Computer 22” Full-HD Display Intel 2.90GHz 4GB 1TB HD Win10 - TEAL",
         "hsn_sac_code": "N/A",
-        "quantity": "2,00",
+        "quantity": "5,00",
         "unit": "each",
-        "unit_price": "12,49",
+        "unit_price": "449,99",
         "discount": "N/A",
         "tax_rate": "10%",
         "tax_amount": "N/A",
-        "total_price": "27,48"
+        "total_price": "2 474,95"
       },
       {
         "item_number": "4",
-        "description": "Red Traditional Oriental Medallion 8x10 Area Rug Carpet 2x3 Mat 5x7 Rugs",
+        "description": "HP ProDesk G1 Desktop Computer Core i3 3.4GHz 8GB 500GB HD 19” LCD Windows 10 PC",
         "hsn_sac_code": "N/A",
         "quantity": "4,00",
         "unit": "each",
-        "unit_price": "39,98",
+        "unit_price": "119,95",
         "discount": "N/A",
         "tax_rate": "10%",
         "tax_amount": "N/A",
-        "total_price": "175,91"
+        "total_price": "527,78"
       },
       {
         "item_number": "5",
-        "description": "YILONG 2.5'x4' Small Hand Knotted Silk Carpets Antistatic Floor Area Rug 844B",
+        "description": "Dell Desktop Computer PC Core i5 8GB 500GB HD DVD Wifi 19” LCD Windows 10 Pro",
         "hsn_sac_code": "N/A",
-        "quantity": "4,00",
+        "quantity": "2,00",
         "unit": "each",
-        "unit_price": "2 000,00",
+        "unit_price": "144,95",
         "discount": "N/A",
         "tax_rate": "10%",
         "tax_amount": "N/A",
-        "total_price": "8 800,00"
+        "total_price": "318,89"
+      },
+      {
+        "item_number": "6",
+        "description": "Dell Desktop Computer Tower Quad Intel Core i5 8GB 1TB HD DVD Wifi Windows 10 PC",
+        "hsn_sac_code": "N/A",
+        "quantity": "5,00",
+        "unit": "each",
+        "unit_price": "149,95",
+        "discount": "N/A",
+        "tax_rate": "10%",
+        "tax_amount": "N/A",
+        "total_price": "824,73"
       }
     ],
     "financial_summary": {
-      "subtotal": "$ 8 314,20",
+      "subtotal": "$ 4 499,25",
       "total_discount": "N/A",
       "taxable_amount": "N/A",
       "cgst": "N/A",
@@ -112,9 +124,9 @@
       "cess": "N/A",
       "other_charges": "N/A",
       "shipping_charges": "N/A",
-      "total_tax_amount": "$ 831,42",
+      "total_tax_amount": "$ 449,93",
       "round_off": "N/A",
-      "total_amount": "$ 9 145,62",
+      "total_amount": "$ 4 949,18",
       "amount_in_words": "N/A",
       "currency": "US Dollars ($)"
     },

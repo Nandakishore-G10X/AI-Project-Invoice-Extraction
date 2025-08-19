@@ -27,7 +27,7 @@ const StatusMessage = ({ message, type }) => {
     );
 };
 
-const FileUpload = ({ onFileSelect, setResult}) => {
+const FileUpload = ({ onFileSelect, setResult }) => {
     const [file, setFile] = useState(null);
     const [imagePreview, setImagePreview] = useState(null);
     const [isProcessing, setIsProcessing] = useState(false);
@@ -36,7 +36,6 @@ const FileUpload = ({ onFileSelect, setResult}) => {
     const fileInputRef = useRef(null);
 
     useEffect(() => {
-
     }, []);
 
     const handleFileChange = (e) => {
@@ -66,18 +65,27 @@ const FileUpload = ({ onFileSelect, setResult}) => {
 
             if (parsed) {
                 let result = null;
-                
+
                 // If it's valid JSON, parse and display
                 const messageData = parsed
-                try{
+                try {
                     result = messageData.result;
                 }
-                catch{
+                catch {
                     result = null;
                 }
-                if(result){
-                    console.log("result",result.text);
-                    setResult(result.text);
+                if (result) {
+                    console.log("result", result.text);
+                    let parsedResult = result.text;
+                    // If it's a stringified JSON, parse it
+                    if (typeof parsedResult === "string") {
+                        try {
+                            parsedResult = JSON.parse(parsedResult);
+                        } catch (e) {
+                            console.error("Failed to parse result.text", e);
+                        }
+                    }
+                    setResult(parsedResult);
                 }
                 else if (messageData.message && messageData.type) {
                     console.log(messageData)
