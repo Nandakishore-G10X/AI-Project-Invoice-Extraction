@@ -13,8 +13,11 @@ import fitz  # PyMuPDF
 from pdf2image import convert_from_path
 import warnings
 os.environ['PYTHONWARNINGS'] = 'ignore::DeprecationWarning'
-
+import cv2
+import numpy as np
+from pathlib import Path
 import warnings
+import fitz  # PyMuPDF
 warnings.filterwarnings("ignore")
 
 
@@ -387,7 +390,7 @@ def get_results_summary(results_dir="resultjson"):
 def pdf_to_images(pdf_path, dpi=300):
     """Convert PDF pages to images using PyMuPDF (no poppler needed)"""
     try:
-        import fitz  # PyMuPDF
+        
         doc = fitz.open(pdf_path)
         output_paths = []
         
@@ -712,9 +715,7 @@ def display_pdf_results(result):
         st.warning("⚠️ No combined data available from PDF processing")
 
 # YOUR EXISTING FUNCTIONS (unchanged)
-import cv2
-import numpy as np
-from pathlib import Path
+
 
 def preprocess_image_enhanced(image_path):
     """
@@ -759,7 +760,7 @@ def preprocess_image_enhanced(image_path):
     except Exception as e:
         print(f"❌ OpenCV preprocessing failed: {e}")
         return image_path
-import os
+
 
 def download_preprocessed_image(preprocessed_image_path):
     if not os.path.exists(preprocessed_image_path):

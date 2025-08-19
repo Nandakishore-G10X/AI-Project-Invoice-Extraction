@@ -1,0 +1,25 @@
+# Backend
+fastapi
+uvicorn
+python-multipart
+websockets
+
+# Middleware
+starlette
+requests
+
+# Frontend / App
+streamlit
+python-dotenv
+openai
+
+# File & Image Processing
+pillow
+opencv-python
+numpy
+pdf2image
+pymupdf  # (fitz)
+uuid
+
+# Extra utilities
+python-dateutil
