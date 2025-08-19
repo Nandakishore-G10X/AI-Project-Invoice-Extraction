@@ -1,0 +1,147 @@
+.upload-box {
+  background-color: #f0f2f6;
+  border-radius: 8px;
+  padding: 24px;
+  border: 1px solid #d1d5db;
+}
+
+.upload-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upload-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-small {
+  width: 24px;
+  height: 24px;
+  color: #9ca3af;
+}
+
+.browse-btn {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #4b5563;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.browse-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.file-info {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 8px;
+  margin-left: 32px;
+}
+
+.uploaded-file {
+  margin-top: 16px;
+}
+
+.file-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #9ca3af;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #f87171;
+}
+
+.close-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Image Preview Styling */
+.image-preview {
+  margin-top: 16px;
+  width: 100%; /* Ensure the image takes up full width */
+  display: flex;
+  justify-content: center;
+}
+
+.preview-img {
+  width: 100%; /* Make the image take up the full width */
+  height: auto; /* Keep the aspect ratio */
+  border-radius: 8px;
+  object-fit: contain; /* Ensure the entire image fits within the box */
+}
+
+/* PDF Message Styling */
+.pdf-message {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 16px;
+}
+.process-btn-wrapper {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.process-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%; /* full width like `use_container_width=True` */
+  transition: background-color 0.3s ease;
+}
+
+.process-btn:hover {
+  background-color: #4338ca;
+}
+/* Styles for the status message blocks */
+.status-messages {
+  margin-top: 20px;
+}
+
+.status-message {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.info-block {
+  background-color: #e0f7fa; /* Light blue for info */
+  color: #79002e;
+  /* border: 1px solid #00796b; */
+}
+
+.success-block {
+  background-color: #c8e6c9; /* Light green for success */
+  color: #388e3c;
+  border: 1px solid #388e3c;
+}
+
+.error-block {
+  background-color: #ffcdd2; /* Light red for error */
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
+}
