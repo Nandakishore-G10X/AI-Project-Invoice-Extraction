@@ -5823,5 +5823,156 @@
         "unclear_fields": []
       }
     }
+  },
+  {
+    "id": "20250819_224728_4e3f8105",
+    "timestamp": "2025-08-19T22:47:28.344014",
+    "processing_date": "2025-08-19 22:47:28",
+    "source_filename": "batch1-0472.jpg",
+    "extraction_data": {
+      "quality_assessment": {
+        "quality_too_poor": false,
+        "quality_issues": [],
+        "readability_score": "high",
+        "can_extract_data": true,
+        "preprocessing_recommended": false
+      },
+      "invoice_header": {
+        "vendor_name": "Carter, Molina and Garcia",
+        "vendor_address": "6710 Sean Ports, Lake Kristine, CT 42610",
+        "vendor_phone": "932-98-4214",
+        "vendor_email": "N/A",
+        "vendor_website": "N/A",
+        "vendor_gst_number": "N/A",
+        "vendor_pan": "N/A",
+        "invoice_number": "76322049",
+        "invoice_date": "05/21/2021",
+        "due_date": "N/A",
+        "purchase_order_number": "N/A",
+        "reference_number": "N/A",
+        "currency": "US Dollars ($)"
+      },
+      "customer_details": {
+        "customer_name": "Jones LLC",
+        "customer_address": "0875 Charles Village Suite 140, Reidfort, NC 33037",
+        "customer_phone": "N/A",
+        "customer_email": "N/A",
+        "customer_gst_number": "N/A",
+        "customer_pan": "N/A",
+        "billing_address": "N/A",
+        "shipping_address": "N/A",
+        "customer_contact_person": "N/A"
+      },
+      "line_items": [
+        {
+          "item_number": "1",
+          "description": "Straw Dogs : Thoughts on Humans and Other Animals, Paperback by Gray, John, L...",
+          "hsn_sac_code": "N/A",
+          "quantity": "4,00",
+          "unit": "each",
+          "unit_price": "13,99",
+          "discount": "N/A",
+          "tax_rate": "10%",
+          "tax_amount": "N/A",
+          "total_price": "61,56"
+        },
+        {
+          "item_number": "2",
+          "description": "Titans of the Rising Sun - Yamato Class Battleships of World War II Book",
+          "hsn_sac_code": "N/A",
+          "quantity": "3,00",
+          "unit": "each",
+          "unit_price": "7,53",
+          "discount": "N/A",
+          "tax_rate": "10%",
+          "tax_amount": "N/A",
+          "total_price": "24,85"
+        },
+        {
+          "item_number": "3",
+          "description": "The Graphic Design Reference & Specification Book: Everything Graphic Designers",
+          "hsn_sac_code": "N/A",
+          "quantity": "2,00",
+          "unit": "each",
+          "unit_price": "20,18",
+          "discount": "N/A",
+          "tax_rate": "10%",
+          "tax_amount": "N/A",
+          "total_price": "44,40"
+        },
+        {
+          "item_number": "4",
+          "description": "Sasinowski M-Legacy Of Ra BOOK NEW",
+          "hsn_sac_code": "N/A",
+          "quantity": "3,00",
+          "unit": "each",
+          "unit_price": "19,40",
+          "discount": "N/A",
+          "tax_rate": "10%",
+          "tax_amount": "N/A",
+          "total_price": "64,02"
+        }
+      ],
+      "financial_summary": {
+        "subtotal": "$ 177,11",
+        "total_discount": "N/A",
+        "taxable_amount": "N/A",
+        "cgst": "N/A",
+        "sgst": "N/A",
+        "igst": "N/A",
+        "cess": "N/A",
+        "other_charges": "N/A",
+        "shipping_charges": "N/A",
+        "total_tax_amount": "$ 17,71",
+        "round_off": "N/A",
+        "total_amount": "$ 194,82",
+        "amount_in_words": "N/A",
+        "currency": "US Dollars ($)"
+      },
+      "payment_details": {
+        "payment_terms": "N/A",
+        "payment_method": "N/A",
+        "bank_name": "N/A",
+        "account_number": "N/A",
+        "ifsc_code": "N/A",
+        "branch": "N/A",
+        "upi_id": "N/A",
+        "advance_paid": "N/A",
+        "balance_due": "N/A"
+      },
+      "terms_and_conditions": {
+        "payment_terms": "N/A",
+        "delivery_terms": "N/A",
+        "warranty_terms": "N/A",
+        "return_policy": "N/A",
+        "late_payment_charges": "N/A",
+        "jurisdiction": "N/A",
+        "other_conditions": []
+      },
+      "additional_info": {
+        "notes": "N/A",
+        "special_instructions": "N/A",
+        "delivery_date": "N/A",
+        "place_of_supply": "N/A",
+        "reverse_charge": "N/A",
+        "document_type": "N/A",
+        "series": "N/A",
+        "authorised_signatory": "N/A",
+        "stamp_or_seal": "N/A",
+        "qr_code_present": "N/A"
+      },
+      "detection_metadata": {
+        "tables_detected": true,
+        "handwriting_detected": false,
+        "logo_detected": false,
+        "stamp_detected": false,
+        "signature_detected": false,
+        "barcode_qr_detected": false,
+        "multi_page_document": false,
+        "document_quality": "high",
+        "extraction_confidence": "high",
+        "unclear_fields": []
+      }
+    }
   }
 ]

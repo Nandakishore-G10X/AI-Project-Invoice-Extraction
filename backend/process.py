@@ -62,10 +62,10 @@ async def process_pdf(uploaded_file, websocket, filename):
                 await websocket.send_text(f"📋 **Master file:** `all_results.json` (Total: {total_count} documents)")
                     
             except Exception as e:
-                websocket.send_text(f"❌ Failed to save results: {e}")
+                await websocket.send_text(f"❌ Failed to save results: {e}")
                     
         else:
-            websocket.send_text("❌ Failed to process PDF")
+            await websocket.send_text("❌ Failed to process PDF")
                        
 
         # Here, implement your actual PDF processing logic, e.g. using PyMuPDF, PyPDF2, etc.
@@ -76,7 +76,7 @@ async def process_pdf(uploaded_file, websocket, filename):
             "status": "success",
         }
     except Exception as e:
-        websocket.send_text(f"Error {e}")
+        await websocket.send_text(f"Error {e}")
 
 
 async def process_image(uploaded_file, websocket, filename):
@@ -107,7 +107,7 @@ async def process_image(uploaded_file, websocket, filename):
                         quality = result["quality_assessment"]
                         
                         if quality.get("quality_too_poor", False):
-                            websocket.send_text("⚠️ **Image quality was initially poor - preprocessing was applied**")
+                            await websocket.send_text("⚠️ **Image quality was initially poor - preprocessing was applied**")
                         
                         await websocket.send_text(f"📊 **Quality Assessment:**")
                         await websocket.send_text(f"- **Readability:** {quality.get('readability_score', 'N/A')}")
@@ -145,7 +145,7 @@ async def process_image(uploaded_file, websocket, filename):
                     await websocket.send_text("❌ Failed to process invoice even after preprocessing")
 
         except Exception as e:
-            websocket.send_text(f"Error {e}")
+            await websocket.send_text(f"Error {e}")
 
 def get_pdf_page_count(pdf_path):
     """Get number of pages in PDF"""
@@ -188,7 +188,7 @@ async def process_multi_page_pdf(pdf_path, uploaded_filename, ws):
     # ADD DEBUG INFO
     await ws.send_text(f"🖼️ **Successfully converted {len(image_paths)} pages to images**")
     
-    # Process each page
+    # Process each pagezzzzz
     all_page_results = []
     
     for i, image_path in enumerate(image_paths, 1):
